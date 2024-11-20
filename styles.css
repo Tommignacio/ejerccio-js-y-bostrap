@@ -1,0 +1,22 @@
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-input:hover {
+  border-color: #86b7fe;
+}
+
+/* Estilo para mensajes de error */
+.error {
+  border-color: #dc3545 !important;
+}
